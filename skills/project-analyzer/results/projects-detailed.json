@@ -1,0 +1,4773 @@
+[
+  {
+    "name": ".stfolder",
+    "path": "/mnt/d/dev2/.stfolder",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": ".tmp.drivedownload",
+    "path": "/mnt/d/dev2/.tmp.drivedownload",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": ".tmp.driveupload",
+    "path": "/mnt/d/dev2/.tmp.driveupload",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "AzurePhotoBlobToSQL",
+    "path": "/mnt/d/dev2/AzurePhotoBlobToSQL",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "BrowserBadgeScannerExtensionAPI",
+    "path": "/mnt/d/dev2/BrowserBadgeScannerExtensionAPI",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "CodeTransitionPlan",
+    "path": "/mnt/d/dev2/CodeTransitionPlan",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "CoreAttempts",
+    "path": "/mnt/d/dev2/CoreAttempts",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "CoverLetterExpert",
+    "path": "/mnt/d/dev2/CoverLetterExpert",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "CrystalReportsAnalyzer",
+    "path": "/mnt/d/dev2/CrystalReportsAnalyzer",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "DAGDesign",
+    "path": "/mnt/d/dev2/DAGDesign",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Express"
+      ],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "DigitalContentAccessSystem",
+    "path": "/mnt/d/dev2/DigitalContentAccessSystem",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "FaithVision",
+    "path": "/mnt/d/dev2/FaithVision",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 33,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "FaithVision - Copy",
+    "path": "/mnt/d/dev2/FaithVision - Copy",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 33,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "FaviGen",
+    "path": "/mnt/d/dev2/FaviGen",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "ForeCT",
+    "path": "/mnt/d/dev2/ForeCT",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "GitHubRelease",
+    "path": "/mnt/d/dev2/GitHubRelease",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "IDVerify",
+    "path": "/mnt/d/dev2/IDVerify",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Vercel",
+        "Netlify"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "ImageFinder",
+    "path": "/mnt/d/dev2/ImageFinder",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Express"
+      ],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 21,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "env-var-validator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 13
+  },
+  {
+    "name": "LastMile.Guru",
+    "path": "/mnt/d/dev2/LastMile.Guru",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vite",
+        "Vue"
+      ],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator",
+      "vue-component-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "Learn.AI",
+    "path": "/mnt/d/dev2/Learn.AI",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "LegaciesAI",
+    "path": "/mnt/d/dev2/LegaciesAI",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "LinkedIn-accelerator",
+    "path": "/mnt/d/dev2/LinkedIn-accelerator",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "LoginGateway",
+    "path": "/mnt/d/dev2/LoginGateway",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [
+        "SQL Server"
+      ],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "database-migration-generator",
+      "dependency-updater",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "sql-schema-analyzer",
+      "sql-seed-data-generator",
+      "sql-server-performance-analyzer",
+      "sql-server-schema-export",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "LoginGateway2",
+    "path": "/mnt/d/dev2/LoginGateway2",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "LoginGateway3",
+    "path": "/mnt/d/dev2/LoginGateway3",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "ManageMyPC-MCP",
+    "path": "/mnt/d/dev2/ManageMyPC-MCP",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "MiniTutorial",
+    "path": "/mnt/d/dev2/MiniTutorial",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "NVCAI",
+    "path": "/mnt/d/dev2/NVCAI",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "New folder",
+    "path": "/mnt/d/dev2/New folder",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "NewETL",
+    "path": "/mnt/d/dev2/NewETL",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 8
+  },
+  {
+    "name": "PaymentAPI",
+    "path": "/mnt/d/dev2/PaymentAPI",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "PhotoSync",
+    "path": "/mnt/d/dev2/PhotoSync",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [
+        "SQL Server"
+      ],
+      "platforms": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 1,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "database-migration-generator",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "env-var-validator",
+      "project-scaffolder",
+      "readme-generator",
+      "sql-schema-analyzer",
+      "sql-seed-data-generator",
+      "sql-server-performance-analyzer",
+      "sql-server-schema-export"
+    ],
+    "skillCount": 17
+  },
+  {
+    "name": "QuizGenerator",
+    "path": "/mnt/d/dev2/QuizGenerator",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vite",
+        "Vue"
+      ],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 23,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "vue-component-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "RemindMe",
+    "path": "/mnt/d/dev2/RemindMe",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "SQLMCP",
+    "path": "/mnt/d/dev2/SQLMCP",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "SQLReleaseNotes2",
+    "path": "/mnt/d/dev2/SQLReleaseNotes2",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 4,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "SQLScriptProjects",
+    "path": "/mnt/d/dev2/SQLScriptProjects",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "SSMS-AI",
+    "path": "/mnt/d/dev2/SSMS-AI",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "SchoolVisionAISite",
+    "path": "/mnt/d/dev2/SchoolVisionAISite",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vite",
+        "Vue"
+      ],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 6,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator",
+      "vue-component-generator"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "Scripts",
+    "path": "/mnt/d/dev2/Scripts",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "SimpleAuthB2C",
+    "path": "/mnt/d/dev2/SimpleAuthB2C",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 8
+  },
+  {
+    "name": "SimpleQuizzer",
+    "path": "/mnt/d/dev2/SimpleQuizzer",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "SpeakOut",
+    "path": "/mnt/d/dev2/SpeakOut",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "Teams2Time",
+    "path": "/mnt/d/dev2/Teams2Time",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "Tools",
+    "path": "/mnt/d/dev2/Tools",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "UPW-ProVb6",
+    "path": "/mnt/d/dev2/UPW-ProVb6",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "UnifiedRelease",
+    "path": "/mnt/d/dev2/UnifiedRelease",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "UpApply",
+    "path": "/mnt/d/dev2/UpApply",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 4,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "VibePruner",
+    "path": "/mnt/d/dev2/VibePruner",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 5,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "VibePruner_Python",
+    "path": "/mnt/d/dev2/VibePruner_Python",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "VibePruner_TestProject",
+    "path": "/mnt/d/dev2/VibePruner_TestProject",
+    "stack": {
+      "languages": [
+        "C#",
+        "JavaScript/TypeScript",
+        "Python"
+      ],
+      "frameworks": [
+        "Express"
+      ],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 14
+  },
+  {
+    "name": "WholePatient.AI",
+    "path": "/mnt/d/dev2/WholePatient.AI",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 4,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "env-var-validator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "WinPSMCP",
+    "path": "/mnt/d/dev2/WinPSMCP",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "project-scaffolder"
+    ],
+    "skillCount": 6
+  },
+  {
+    "name": "WinRun",
+    "path": "/mnt/d/dev2/WinRun",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "WooCommerceSync",
+    "path": "/mnt/d/dev2/WooCommerceSync",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "WooCommerceSync - 20250720",
+    "path": "/mnt/d/dev2/WooCommerceSync - 20250720",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "WooCommerceSync - Copy",
+    "path": "/mnt/d/dev2/WooCommerceSync - Copy",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "arch_diagram",
+    "path": "/mnt/d/dev2/arch_diagram",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 35,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "artgallery",
+    "path": "/mnt/d/dev2/artgallery",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "autoformat",
+    "path": "/mnt/d/dev2/autoformat",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "autoplaytest",
+    "path": "/mnt/d/dev2/autoplaytest",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 12,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 13
+  },
+  {
+    "name": "awswhitelist",
+    "path": "/mnt/d/dev2/awswhitelist",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 50,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "awswhitelist2",
+    "path": "/mnt/d/dev2/awswhitelist2",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 59,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 13
+  },
+  {
+    "name": "awswhitelist3",
+    "path": "/mnt/d/dev2/awswhitelist3",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 81,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 13
+  },
+  {
+    "name": "azure-app-service-sizer",
+    "path": "/mnt/d/dev2/azure-app-service-sizer",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "azure-build-server",
+    "path": "/mnt/d/dev2/azure-build-server",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "azurecheck",
+    "path": "/mnt/d/dev2/azurecheck",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 8,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "babelfishAI",
+    "path": "/mnt/d/dev2/babelfishAI",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "basic-to-standard-ip-azure",
+    "path": "/mnt/d/dev2/basic-to-standard-ip-azure",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "bcpplus",
+    "path": "/mnt/d/dev2/bcpplus",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 21,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "env-var-validator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "birthdayadvent",
+    "path": "/mnt/d/dev2/birthdayadvent",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "birthdayadventsite",
+    "path": "/mnt/d/dev2/birthdayadventsite",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 8
+  },
+  {
+    "name": "blood-pressure-check",
+    "path": "/mnt/d/dev2/blood-pressure-check",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "bubblegame",
+    "path": "/mnt/d/dev2/bubblegame",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "bulkimport",
+    "path": "/mnt/d/dev2/bulkimport",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "card2site",
+    "path": "/mnt/d/dev2/card2site",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 13,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "cdn-migration",
+    "path": "/mnt/d/dev2/cdn-migration",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "certificates",
+    "path": "/mnt/d/dev2/certificates",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "cindyzody-site",
+    "path": "/mnt/d/dev2/cindyzody-site",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vite",
+        "Vue"
+      ],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 7,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "vue-component-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "claude-agent-sdk",
+    "path": "/mnt/d/dev2/claude-agent-sdk",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [
+        "SQL Server"
+      ],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "database-migration-generator",
+      "dependency-updater",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "sql-schema-analyzer",
+      "sql-seed-data-generator",
+      "sql-server-performance-analyzer",
+      "sql-server-schema-export",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "claude-code-setup",
+    "path": "/mnt/d/dev2/claude-code-setup",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "claude.common",
+    "path": "/mnt/d/dev2/claude.common",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "claude2files",
+    "path": "/mnt/d/dev2/claude2files",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "claudecoderun",
+    "path": "/mnt/d/dev2/claudecoderun",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "clients",
+    "path": "/mnt/d/dev2/clients",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "Argent",
+    "path": "/mnt/d/dev2/clients/Argent",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "Brian",
+    "path": "/mnt/d/dev2/clients/Brian",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "ChrisChipman",
+    "path": "/mnt/d/dev2/clients/ChrisChipman",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "Gabe",
+    "path": "/mnt/d/dev2/clients/Gabe",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "Gerry",
+    "path": "/mnt/d/dev2/clients/Gerry",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "Harry Stauber",
+    "path": "/mnt/d/dev2/clients/Harry Stauber",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "HuddleUp",
+    "path": "/mnt/d/dev2/clients/HuddleUp",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "KUMC-Charlotte",
+    "path": "/mnt/d/dev2/clients/KUMC-Charlotte",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "MBox",
+    "path": "/mnt/d/dev2/clients/MBox",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "Sesio",
+    "path": "/mnt/d/dev2/clients/Sesio",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "adler",
+    "path": "/mnt/d/dev2/clients/adler",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "anterix",
+    "path": "/mnt/d/dev2/clients/anterix",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "arctrade",
+    "path": "/mnt/d/dev2/clients/arctrade",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "chriscronin",
+    "path": "/mnt/d/dev2/clients/chriscronin",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "di_mobileid",
+    "path": "/mnt/d/dev2/clients/di_mobileid",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "di_mobileid2",
+    "path": "/mnt/d/dev2/clients/di_mobileid2",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "docs",
+    "path": "/mnt/d/dev2/clients/docs",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "dru",
+    "path": "/mnt/d/dev2/clients/dru",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "no-status-quo",
+    "path": "/mnt/d/dev2/clients/no-status-quo",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "organismAI",
+    "path": "/mnt/d/dev2/clients/organismAI",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 109,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "env-var-validator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "spain",
+    "path": "/mnt/d/dev2/clients/spain",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "sqlserverHA",
+    "path": "/mnt/d/dev2/clients/sqlserverHA",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "clover-pos-sync",
+    "path": "/mnt/d/dev2/clover-pos-sync",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "code-review-engine",
+    "path": "/mnt/d/dev2/code-review-engine",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker"
+      ]
+    },
+    "envVarCount": 3,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 13
+  },
+  {
+    "name": "cyclocomp-mcp",
+    "path": "/mnt/d/dev2/cyclocomp-mcp",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "project-scaffolder"
+    ],
+    "skillCount": 6
+  },
+  {
+    "name": "db2mid",
+    "path": "/mnt/d/dev2/db2mid",
+    "stack": {
+      "languages": [
+        "C#",
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "dbbuilder",
+    "path": "/mnt/d/dev2/dbbuilder",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "devsv",
+    "path": "/mnt/d/dev2/devsv",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "digital-transformation",
+    "path": "/mnt/d/dev2/digital-transformation",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [
+        "PostgreSQL"
+      ],
+      "platforms": [
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "database-migration-generator",
+      "dependency-updater",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "sql-schema-analyzer",
+      "sql-seed-data-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "dotnet-unit-test-gen",
+    "path": "/mnt/d/dev2/dotnet-unit-test-gen",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 7,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "easyauth",
+    "path": "/mnt/d/dev2/easyauth",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "easyhealth",
+    "path": "/mnt/d/dev2/easyhealth",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "ecommerce",
+    "path": "/mnt/d/dev2/ecommerce",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "find-azure-costs",
+    "path": "/mnt/d/dev2/find-azure-costs",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "fireproof",
+    "path": "/mnt/d/dev2/fireproof",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "github-setup",
+    "path": "/mnt/d/dev2/github-setup",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 1,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "github-spec-kit-editor",
+    "path": "/mnt/d/dev2/github-spec-kit-editor",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Next.js",
+        "React"
+      ],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 5,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "nextjs-api-route-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "react-component-generator",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "github-spec-kit-init",
+    "path": "/mnt/d/dev2/github-spec-kit-init",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "gitprotect",
+    "path": "/mnt/d/dev2/gitprotect",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "hubspotsync",
+    "path": "/mnt/d/dev2/hubspotsync",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "icongen",
+    "path": "/mnt/d/dev2/icongen",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "interviewcoach",
+    "path": "/mnt/d/dev2/interviewcoach",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "jetde",
+    "path": "/mnt/d/dev2/jetde",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "keys",
+    "path": "/mnt/d/dev2/keys",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "keyvault-converter",
+    "path": "/mnt/d/dev2/keyvault-converter",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 4,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "lessons-learned",
+    "path": "/mnt/d/dev2/lessons-learned",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 44,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "marketing-hub",
+    "path": "/mnt/d/dev2/marketing-hub",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Next.js",
+        "React"
+      ],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 43,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "nextjs-api-route-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "react-component-generator",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 13
+  },
+  {
+    "name": "mbox",
+    "path": "/mnt/d/dev2/mbox",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "mbox-platform",
+    "path": "/mnt/d/dev2/mbox-platform",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Azure DevOps"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "mbox-platform - Copy",
+    "path": "/mnt/d/dev2/mbox-platform - Copy",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "mcpfactory",
+    "path": "/mnt/d/dev2/mcpfactory",
+    "stack": {
+      "languages": [
+        "C#",
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "mcpvault",
+    "path": "/mnt/d/dev2/mcpvault",
+    "stack": {
+      "languages": [
+        "C#",
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 14
+  },
+  {
+    "name": "md2pptx",
+    "path": "/mnt/d/dev2/md2pptx",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 4,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "merced_import",
+    "path": "/mnt/d/dev2/merced_import",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "mfa-relay",
+    "path": "/mnt/d/dev2/mfa-relay",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "michaeljr",
+    "path": "/mnt/d/dev2/michaeljr",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": ".archive",
+    "path": "/mnt/d/dev2/michaeljr/.archive",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "PaymentAPI-original",
+    "path": "/mnt/d/dev2/michaeljr/PaymentAPI-original",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Azure DevOps"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "docs",
+    "path": "/mnt/d/dev2/michaeljr/docs",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "ecommerce-app",
+    "path": "/mnt/d/dev2/michaeljr/ecommerce-app",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vue"
+      ],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 64,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator",
+      "vue-component-generator"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "scripts",
+    "path": "/mnt/d/dev2/michaeljr/scripts",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "mktgagent",
+    "path": "/mnt/d/dev2/mktgagent",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "mymobileid.net",
+    "path": "/mnt/d/dev2/mymobileid.net",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vite",
+        "Vue"
+      ],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "vue-component-generator"
+    ],
+    "skillCount": 8
+  },
+  {
+    "name": "open-source-scanner",
+    "path": "/mnt/d/dev2/open-source-scanner",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 3,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "openrecall",
+    "path": "/mnt/d/dev2/openrecall",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "parallel-dev",
+    "path": "/mnt/d/dev2/parallel-dev",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "patterns",
+    "path": "/mnt/d/dev2/patterns",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "pipelines",
+    "path": "/mnt/d/dev2/pipelines",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "playwright2artillery",
+    "path": "/mnt/d/dev2/playwright2artillery",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 22,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "portfolio-scan",
+    "path": "/mnt/d/dev2/portfolio-scan",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "postgresanalyze",
+    "path": "/mnt/d/dev2/postgresanalyze",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "pshcommitteesite",
+    "path": "/mnt/d/dev2/pshcommitteesite",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Next.js",
+        "React"
+      ],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 10,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "nextjs-api-route-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "react-component-generator",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 13
+  },
+  {
+    "name": "pshcommitteesite - Copy",
+    "path": "/mnt/d/dev2/pshcommitteesite - Copy",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Next.js",
+        "React"
+      ],
+      "databases": [],
+      "platforms": [
+        "Vercel"
+      ]
+    },
+    "envVarCount": 14,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "nextjs-api-route-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "react-component-generator",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "publish",
+    "path": "/mnt/d/dev2/publish",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "publish-auth-test",
+    "path": "/mnt/d/dev2/publish-auth-test",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "publish-web",
+    "path": "/mnt/d/dev2/publish-web",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "puzzler",
+    "path": "/mnt/d/dev2/puzzler",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vite",
+        "Vue",
+        "Express"
+      ],
+      "databases": [
+        "PostgreSQL"
+      ],
+      "platforms": [
+        "Docker Compose",
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 8,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "database-migration-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "sql-schema-analyzer",
+      "sql-seed-data-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator",
+      "vue-component-generator"
+    ],
+    "skillCount": 15
+  },
+  {
+    "name": "puzzletutorial",
+    "path": "/mnt/d/dev2/puzzletutorial",
+    "stack": {
+      "languages": [
+        "C#",
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Express"
+      ],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 14
+  },
+  {
+    "name": "qrcode_azurefx",
+    "path": "/mnt/d/dev2/qrcode_azurefx",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "project-scaffolder"
+    ],
+    "skillCount": 6
+  },
+  {
+    "name": "quiddler",
+    "path": "/mnt/d/dev2/quiddler",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vite",
+        "Vue"
+      ],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator",
+      "vue-component-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "rds2alloy",
+    "path": "/mnt/d/dev2/rds2alloy",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "rds2datadog",
+    "path": "/mnt/d/dev2/rds2datadog",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 57,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "redesigniq-initial",
+    "path": "/mnt/d/dev2/redesigniq-initial",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "redesigniq2",
+    "path": "/mnt/d/dev2/redesigniq2",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 31,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "remoteC",
+    "path": "/mnt/d/dev2/remoteC",
+    "stack": {
+      "languages": [
+        "C#",
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 52,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "env-var-validator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 14
+  },
+  {
+    "name": "secondchance.dev",
+    "path": "/mnt/d/dev2/secondchance.dev",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Vite",
+        "Vue"
+      ],
+      "databases": [],
+      "platforms": [
+        "Docker Compose",
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 2,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator",
+      "vue-component-generator"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "servicevisionsite",
+    "path": "/mnt/d/dev2/servicevisionsite",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "setup-email",
+    "path": "/mnt/d/dev2/setup-email",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "shopifyconnect",
+    "path": "/mnt/d/dev2/shopifyconnect",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "signalrtest",
+    "path": "/mnt/d/dev2/signalrtest",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [
+        "ASP.NET Core"
+      ],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "aspnet-controller-generator",
+      "aspnet-middleware-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 12
+  },
+  {
+    "name": "site-audit",
+    "path": "/mnt/d/dev2/site-audit",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 30,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "sitedesigner",
+    "path": "/mnt/d/dev2/sitedesigner",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions",
+        "Vercel"
+      ]
+    },
+    "envVarCount": 4,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "smart-streamer",
+    "path": "/mnt/d/dev2/smart-streamer",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "smartbenchplaywright",
+    "path": "/mnt/d/dev2/smartbenchplaywright",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [],
+      "databases": [
+        "PostgreSQL"
+      ],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 26,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "database-migration-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "sql-schema-analyzer",
+      "sql-seed-data-generator",
+      "typescript-api-scaffold",
+      "unit-test-generator"
+    ],
+    "skillCount": 14
+  },
+  {
+    "name": "spider-scraper",
+    "path": "/mnt/d/dev2/spider-scraper",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "sql-monitor",
+    "path": "/mnt/d/dev2/sql-monitor",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker Compose"
+      ]
+    },
+    "envVarCount": 23,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "sqlanalyzer",
+    "path": "/mnt/d/dev2/sqlanalyzer",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 9,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "sqlanalyzer-web",
+    "path": "/mnt/d/dev2/sqlanalyzer-web",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "sqlauditor",
+    "path": "/mnt/d/dev2/sqlauditor",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Azure DevOps",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 3,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "env-var-validator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "sqldepends",
+    "path": "/mnt/d/dev2/sqldepends",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Azure DevOps",
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "sqlextract",
+    "path": "/mnt/d/dev2/sqlextract",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "templates",
+    "path": "/mnt/d/dev2/templates",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "terminalcontinue",
+    "path": "/mnt/d/dev2/terminalcontinue",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "test-env-setup",
+    "path": "/mnt/d/dev2/test-env-setup",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "test-helper",
+    "path": "/mnt/d/dev2/test-helper",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "test-helpers",
+    "path": "/mnt/d/dev2/test-helpers",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "testhelper-e2e",
+    "path": "/mnt/d/dev2/testhelper-e2e",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator"
+    ],
+    "skillCount": 7
+  },
+  {
+    "name": "ui-customizer",
+    "path": "/mnt/d/dev2/ui-customizer",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  },
+  {
+    "name": "validate-mcp",
+    "path": "/mnt/d/dev2/validate-mcp",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 3,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "config-template-generator",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "env-var-validator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 10
+  },
+  {
+    "name": "waterpg",
+    "path": "/mnt/d/dev2/waterpg",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "web2rag",
+    "path": "/mnt/d/dev2/web2rag",
+    "stack": {
+      "languages": [
+        "Python"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "Docker"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "integration-test-generator",
+      "project-scaffolder",
+      "python-api-scaffold",
+      "python-dependency-audit",
+      "readme-generator",
+      "unit-test-generator"
+    ],
+    "skillCount": 11
+  },
+  {
+    "name": "webcam-streamer",
+    "path": "/mnt/d/dev2/webcam-streamer",
+    "stack": {
+      "languages": [
+        "JavaScript/TypeScript"
+      ],
+      "frameworks": [
+        "Express"
+      ],
+      "databases": [],
+      "platforms": [
+        "Docker"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": true,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "docker-compose-generator",
+      "dockerfile-generator",
+      "npm-dependency-audit",
+      "project-scaffolder",
+      "readme-generator",
+      "typescript-api-scaffold"
+    ],
+    "skillCount": 9
+  },
+  {
+    "name": "websocket",
+    "path": "/mnt/d/dev2/websocket",
+    "stack": {
+      "languages": [
+        "C#"
+      ],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "dotnet-api-scaffold",
+      "dotnet-entity-generator",
+      "dotnet-unit-test-generator",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 8
+  },
+  {
+    "name": "weeklybackup",
+    "path": "/mnt/d/dev2/weeklybackup",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": []
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder"
+    ],
+    "skillCount": 3
+  },
+  {
+    "name": "wsl-windows-script-runner",
+    "path": "/mnt/d/dev2/wsl-windows-script-runner",
+    "stack": {
+      "languages": [],
+      "frameworks": [],
+      "databases": [],
+      "platforms": [
+        "GitHub Actions"
+      ]
+    },
+    "envVarCount": 0,
+    "hasClaudeFile": false,
+    "skillsNeeded": [
+      "api-documentation-generator",
+      "code-security-auditor",
+      "dependency-updater",
+      "project-scaffolder",
+      "readme-generator"
+    ],
+    "skillCount": 5
+  }
+]
