@@ -10,7 +10,7 @@ import { Pattern, VulnerabilityType } from '../types';
  */
 export const SECRET_PATTERNS: Pattern[] = [
   {
-    regex: /(?:api[_-]?key|apikey)\s*[=:]\s*["']([a-zA-Z0-9_\-]{20,})["']/gi,
+    regex: /(?:api[_-]?key|apikey|[A-Z_]+_API_KEY|[A-Z_]+_KEY)\s*[=:]\s*["']([a-zA-Z0-9_\-]{15,})["']/gi,
     type: 'hardcoded-secret',
     severity: 'critical',
     message: 'Hardcoded API key detected',
@@ -19,7 +19,7 @@ export const SECRET_PATTERNS: Pattern[] = [
     owasp: 'A07:2021 – Identification and Authentication Failures',
   },
   {
-    regex: /(?:password|passwd|pwd)\s*[=:]\s*["']([^"'\s]{8,})["']/gi,
+    regex: /(?:DB_PASSWORD|ADMIN_PASS|PASSWORD|passwd|pwd)\s*[=:]\s*["']([^"'\s]{6,})["']/gi,
     type: 'hardcoded-secret',
     severity: 'critical',
     message: 'Hardcoded password detected',
@@ -28,10 +28,10 @@ export const SECRET_PATTERNS: Pattern[] = [
     owasp: 'A07:2021 – Identification and Authentication Failures',
   },
   {
-    regex: /(?:jwt[_-]?secret|secret[_-]?key)\s*[=:]\s*["']([^"'\s]{16,})["']/gi,
+    regex: /(?:jwt[_-]?secret|secret[_-]?key|JWT_SECRET|TOKEN_SECRET)\s*[=:]\s*["']([^"'\s]{8,})["']/gi,
     type: 'hardcoded-secret',
     severity: 'critical',
-    message: 'Hardcoded JWT secret detected',
+    message: 'Hardcoded JWT/token secret detected',
     recommendation: 'Store JWT secrets in environment variables with strong encryption',
     cwe: 'CWE-798',
     owasp: 'A02:2021 – Cryptographic Failures',
@@ -46,11 +46,20 @@ export const SECRET_PATTERNS: Pattern[] = [
     owasp: 'A07:2021 – Identification and Authentication Failures',
   },
   {
-    regex: /sk-[a-zA-Z0-9]{32,}/g,
+    regex: /sk-[a-zA-Z0-9_\-]{20,}/g,
     type: 'hardcoded-secret',
     severity: 'critical',
     message: 'Hardcoded secret key (API key pattern) detected',
     recommendation: 'Remove secret keys from source code and use environment variables',
+    cwe: 'CWE-798',
+    owasp: 'A07:2021 – Identification and Authentication Failures',
+  },
+  {
+    regex: /CONNECTION_STRING\s*=\s*["']([^"']*Password=[^"']+)["']/gi,
+    type: 'hardcoded-secret',
+    severity: 'critical',
+    message: 'Database connection string with hardcoded password',
+    recommendation: 'Use environment variables for connection strings',
     cwe: 'CWE-798',
     owasp: 'A07:2021 – Identification and Authentication Failures',
   },

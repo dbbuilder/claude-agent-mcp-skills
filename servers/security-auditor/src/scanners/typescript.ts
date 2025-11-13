@@ -17,6 +17,15 @@ import {
  */
 const SQL_INJECTION_PATTERNS: Pattern[] = [
   {
+    regex: /=\s*`[^`]*SELECT[^`]*\$\{[^}]+\}[^`]*`/gi,
+    type: 'sql-injection',
+    severity: 'critical',
+    message: 'Potential SQL injection vulnerability - template literal with user input',
+    recommendation: 'Use parameterized queries: db.query("SELECT * FROM users WHERE id = ?", [id])',
+    cwe: 'CWE-89',
+    owasp: 'A03:2021 – Injection',
+  },
+  {
     regex: /(?:query|execute|exec)\s*\(\s*`[^`]*\$\{[^}]+\}[^`]*`/g,
     type: 'sql-injection',
     severity: 'critical',

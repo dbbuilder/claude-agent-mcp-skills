@@ -11,6 +11,33 @@ import { SECRET_PATTERNS, CRYPTO_PATTERNS, findMatches, generateFindingId } from
  */
 const SQL_INJECTION_PATTERNS: Pattern[] = [
   {
+    regex: /=\s*f["'][^"']*SELECT[^"']*\{[^}]+\}/gi,
+    type: 'sql-injection',
+    severity: 'critical',
+    message: 'SQL injection via f-string in SQL query',
+    recommendation: 'Use parameterized queries: cursor.execute("SELECT * FROM users WHERE id = ?", (id,))',
+    cwe: 'CWE-89',
+    owasp: 'A03:2021 – Injection',
+  },
+  {
+    regex: /=\s*["'][^"']*SELECT[^"']*["']\s*\+\s*/gi,
+    type: 'sql-injection',
+    severity: 'critical',
+    message: 'SQL injection via string concatenation in SQL query',
+    recommendation: 'Use parameterized queries instead of string concatenation',
+    cwe: 'CWE-89',
+    owasp: 'A03:2021 – Injection',
+  },
+  {
+    regex: /=\s*["'][^"']*SELECT[^"']*["']\s*%\s*/gi,
+    type: 'sql-injection',
+    severity: 'critical',
+    message: 'SQL injection via % string formatting in query',
+    recommendation: 'Use parameterized queries instead of % formatting',
+    cwe: 'CWE-89',
+    owasp: 'A03:2021 – Injection',
+  },
+  {
     regex: /(?:execute|executemany)\s*\(\s*f["'][^"']*\{[^}]+\}/g,
     type: 'sql-injection',
     severity: 'critical',

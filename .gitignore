@@ -47,3 +47,5 @@ config.json
 .tmp/
 temp/
 servers-broken/
+test-output/
+*/test-output/

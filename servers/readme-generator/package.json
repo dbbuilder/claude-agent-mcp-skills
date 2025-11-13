@@ -1,25 +1,21 @@
 {
-  "name": "@claude-mcp-skills/security-auditor",
+  "name": "@claude-mcp-skills/readme-generator",
   "version": "0.1.0",
-  "description": "OWASP Top 10 security scanner MCP server - Week 1 deliverable",
+  "description": "Automatic README.md generation from project analysis - Week 2 deliverable",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc",
     "test": "jest",
-    "scan": "tsx src/cli.ts",
-    "scan:project": "tsx src/cli.ts scan"
+    "generate": "tsx src/cli.ts"
   },
   "keywords": [
-    "security",
-    "OWASP",
-    "vulnerability",
-    "scanner",
+    "readme",
+    "documentation",
+    "generator",
     "MCP",
-    "SQL injection",
-    "XSS",
-    "secrets"
+    "project-analysis"
   ],
   "author": "DBBuilder",
   "license": "MIT",
@@ -30,10 +26,10 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
-    "@types/jest": "^30.0.0",
+    "@types/jest": "^29.5.11",
     "@types/node": "^20.10.6",
     "jest": "^29.7.0",
-    "ts-jest": "^29.4.5",
+    "ts-jest": "^29.1.1",
     "tsx": "^4.7.0"
   }
 }
