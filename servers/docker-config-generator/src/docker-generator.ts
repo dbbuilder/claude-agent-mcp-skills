@@ -202,6 +202,7 @@ export class DockerGenerator {
       return {
         success: true,
         content: {
+          dockerfile: '',
           dockerCompose: composeContent,
         },
       };

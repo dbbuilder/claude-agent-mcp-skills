@@ -183,7 +183,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             version: '1.0.0',
             endpoints,
           },
-          outputPath: args.outputPath as string,
+          outputPath: args?.outputPath as string,
           format: 'openapi',
         });
 
@@ -211,7 +211,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
             version: '1.0.0',
             endpoints,
           },
-          outputPath: args.outputPath as string,
+          outputPath: args?.outputPath as string,
           format: 'markdown',
         });
 
@@ -227,9 +227,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
       case 'document_api': {
         const result = await documenter.documentAPI(
-          args.projectPath as string,
-          args.outputDir as string | undefined,
-          args.framework === 'auto' ? undefined : (args.framework as Framework)
+          args?.projectPath as string,
+          args?.outputDir as string | undefined,
+          args?.framework === 'auto' ? undefined : (args?.framework as Framework)
         );
 
         return {

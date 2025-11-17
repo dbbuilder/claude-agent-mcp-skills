@@ -148,10 +148,10 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
                 {
                   success: true,
                   variablesFound: result.variables.length,
-                  frameworks: result.frameworks,
-                  configFiles: result.configFiles,
-                  totalUsages: result.totalUsages,
-                  variablesByCategory: this.groupByCategory(result.variables),
+                  frameworks: result.frameworks ?? [],
+                  configFiles: result.configFiles ?? [],
+                  totalUsages: result.totalUsages ?? 0,
+                  variablesByCategory: groupByCategory(result.variables),
                   variables: result.variables.map((v) => ({
                     name: v.name,
                     type: v.type,
