@@ -1,0 +1,37 @@
+{
+  "name": "@claude-agent-sdk/integration-test-generator",
+  "version": "1.0.0",
+  "description": "MCP Server for automatic integration test generation (Jest, Pytest, xUnit)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
+  },
+  "keywords": [
+    "mcp",
+    "testing",
+    "integration-tests",
+    "jest",
+    "pytest",
+    "xunit",
+    "supertest"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "glob": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
