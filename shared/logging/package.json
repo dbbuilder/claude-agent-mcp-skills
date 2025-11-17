@@ -1,0 +1,21 @@
+{
+  "name": "@claude-agent-sdk/logging",
+  "version": "1.0.0",
+  "description": "Shared logging utilities for Claude Agent SDK",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["logging", "mcp"],
+  "author": "Claude Agent SDK",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
