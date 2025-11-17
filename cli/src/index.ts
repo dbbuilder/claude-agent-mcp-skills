@@ -1,98 +1,163 @@
 #!/usr/bin/env node
 
 /**
- * Claude MCP Tools - Unified CLI
- * Main entry point for all development tools
+ * Claude Agent SDK CLI
+ * Unified command-line interface for all MCP servers
  */
 
 import { Command } from 'commander';
 import chalk from 'chalk';
-import { auditCommand } from './commands/audit.js';
-import { scaffoldCommand } from './commands/scaffold.js';
-import { readmeCommand } from './commands/readme.js';
-import { depsCommand } from './commands/deps.js';
-import { interactiveMenu } from './utils/prompts.js';
+import { runInteractiveMode } from './interactive.js';
+import { servers } from './registry.js';
+import { ui } from './ui.js';
+import { executeServer } from './executor.js';
 
 const program = new Command();
 
 program
-  .name('claude-mcp-tools')
-  .description('Claude MCP Agent Development Tools - Security Auditor, Project Scaffolder, README Generator, and Dependency Updater')
+  .name('claude-agent')
+  .description('Claude Agent SDK - Unified CLI for MCP servers')
   .version('1.0.0');
 
-// Security Auditor command
-program
-  .command('audit')
-  .description('Run security audit on MCP server code')
-  .option('-p, --path <path>', 'Path to MCP server directory', process.cwd())
-  .option('-o, --output <file>', 'Output file for audit report')
-  .option('--format <type>', 'Report format (json, markdown, html)', 'markdown')
-  .action(auditCommand);
-
-// Project Scaffolder command
-program
-  .command('scaffold')
-  .description('Scaffold a new project from template')
-  .option('-t, --template <name>', 'Template name (typescript-express, nextjs, dotnet, fastapi, vue3, react, react-native)')
-  .option('-n, --name <name>', 'Project name')
-  .option('-p, --path <path>', 'Output directory', process.cwd())
-  .option('--git', 'Initialize git repository', false)
-  .option('--docker', 'Include Docker configuration', false)
-  .option('--ci', 'Include CI/CD configuration', false)
-  .action(scaffoldCommand);
-
-// README Generator command
-program
-  .command('readme')
-  .description('Generate README.md from project analysis')
-  .option('-p, --path <path>', 'Project directory', process.cwd())
-  .option('-o, --output <file>', 'Output file path')
-  .option('--title <title>', 'Custom project title')
-  .option('--description <desc>', 'Custom project description')
-  .option('--no-badges', 'Exclude badges section')
-  .option('--no-structure', 'Exclude project structure section')
-  .option('--overwrite', 'Overwrite existing README', false)
-  .action(readmeCommand);
-
-// Dependency Updater command
-program
-  .command('deps')
-  .description('Check and update project dependencies')
-  .option('-p, --path <path>', 'Project directory', process.cwd())
-  .option('--check-only', 'Only check for updates, do not apply', false)
-  .option('--major', 'Include major version updates', false)
-  .option('--interactive', 'Prompt for each update', true)
-  .action(depsCommand);
-
-// Interactive mode (default when no command specified)
+// Interactive mode (default)
 program
   .command('interactive', { isDefault: true })
-  .description('Launch interactive menu')
+  .alias('i')
+  .description('Run in interactive mode')
   .action(async () => {
-    await interactiveMenu();
+    try {
+      await runInteractiveMode();
+    } catch (error) {
+      ui.error(error instanceof Error ? error.message : String(error));
+      process.exit(1);
+    }
   });
 
-// Custom help
-program.addHelpText('after', `
+// List available servers
+program
+  .command('list')
+  .alias('ls')
+  .description('List all available MCP servers')
+  .action(() => {
+    ui.banner();
+    ui.header('Available MCP Servers');
 
-${chalk.bold('Examples:')}
-  ${chalk.cyan('$ claude-mcp-tools audit -p ./my-server')}
-    Run security audit on MCP server
+    const rows = Object.entries(servers).map(([key, info]) => [
+      key,
+      info.name,
+      info.description,
+    ]);
 
-  ${chalk.cyan('$ claude-mcp-tools scaffold -t typescript-express -n my-api')}
-    Scaffold a new TypeScript Express project
+    ui.table(['ID', 'Name', 'Description'], rows);
+    ui.blank();
+  });
 
-  ${chalk.cyan('$ claude-mcp-tools readme -p ./my-project --overwrite')}
-    Generate README for project
+// Show server details
+program
+  .command('info <server>')
+  .description('Show detailed information about a server')
+  .action((serverId: string) => {
+    const server = servers[serverId];
 
-  ${chalk.cyan('$ claude-mcp-tools deps -p ./my-project --major')}
-    Check for dependency updates including major versions
+    if (!server) {
+      ui.error(`Server '${serverId}' not found`);
+      ui.info('Run "claude-agent list" to see available servers');
+      process.exit(1);
+    }
 
-  ${chalk.cyan('$ claude-mcp-tools')}
-    Launch interactive menu
+    ui.banner();
+    ui.header(server.name);
 
-${chalk.bold('Documentation:')}
-  For more information, visit: https://github.com/yourusername/claude-agent-sdk
-`);
+    ui.keyValue('Description', server.description);
+    ui.keyValue('Path', server.path);
+    ui.blank();
 
+    if (server.commands.length > 0) {
+      ui.header('Available Commands');
+
+      server.commands.forEach(cmd => {
+        ui.info(`${cmd.name} - ${cmd.description}`);
+
+        if (cmd.args.length > 0) {
+          ui.blank();
+          cmd.args.forEach(arg => {
+            const required = arg.required ? chalk.red('*') : '';
+            const defaultVal = arg.default ? ` (default: ${arg.default})` : '';
+            ui.listItem(`${arg.name}${required}: ${arg.description}${defaultVal}`, 1);
+          });
+          ui.blank();
+        }
+      });
+    } else {
+      ui.warning('No commands available');
+    }
+
+    ui.blank();
+  });
+
+// Direct server execution
+program
+  .command('run <server> <command>')
+  .description('Run a server command directly')
+  .option('--args <json>', 'Arguments as JSON string')
+  .action(async (serverId: string, commandName: string, options: { args?: string }) => {
+    try {
+      const args = options.args ? JSON.parse(options.args) : {};
+      await executeServer(serverId, commandName, args);
+    } catch (error) {
+      ui.error(error instanceof Error ? error.message : String(error));
+      process.exit(1);
+    }
+  });
+
+// Add convenience commands for each server
+Object.entries(servers).forEach(([serverId, server]) => {
+  const serverCmd = program
+    .command(serverId)
+    .description(server.description);
+
+  server.commands.forEach(cmd => {
+    const cmdBuilder = serverCmd
+      .command(cmd.name)
+      .description(cmd.description);
+
+    cmd.args.forEach(arg => {
+      if (arg.required) {
+        cmdBuilder.argument(`<${arg.name}>`, arg.description);
+      } else {
+        cmdBuilder.option(
+          `--${arg.name} <value>`,
+          arg.description,
+          arg.default
+        );
+      }
+    });
+
+    cmdBuilder.action(async (...actionArgs: any[]) => {
+      try {
+        const options = actionArgs[actionArgs.length - 1];
+        const positionalArgs = actionArgs.slice(0, cmd.args.filter(a => a.required).length);
+
+        const args: Record<string, string> = {};
+
+        // Add positional arguments
+        let positionalIndex = 0;
+        cmd.args.forEach(arg => {
+          if (arg.required) {
+            args[arg.name] = positionalArgs[positionalIndex++];
+          } else if (options[arg.name]) {
+            args[arg.name] = options[arg.name];
+          }
+        });
+
+        await executeServer(serverId, cmd.name, args);
+      } catch (error) {
+        ui.error(error instanceof Error ? error.message : String(error));
+        process.exit(1);
+      }
+    });
+  });
+});
+
+// Parse arguments
 program.parse();
