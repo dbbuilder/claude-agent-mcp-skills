@@ -21,14 +21,38 @@ A comprehensive collection of **MCP (Model Context Protocol) servers** and **ski
 
 ## ⚡ Quick Start
 
-### 1. Clone the Repository
+### 1. Clone and Build
 ```bash
 git clone https://github.com/dbbuilder/claude-agent-mcp-skills.git
 cd claude-agent-mcp-skills
 npm install
+npm run build
 ```
 
-### 2. Try the SQL Server MCP (Already Built!)
+### 2. Add to Claude Code (Recommended)
+```bash
+# Add individual servers
+claude mcp add --transport stdio api-doc-generator -- \
+  node /path/to/claude-agent-sdk/servers/api-doc-generator/build/index.js
+
+# Or use project-level configuration
+cp .mcp.json.example .mcp.json
+# Edit .mcp.json and set SDK_PATH environment variable
+export SDK_PATH=/path/to/claude-agent-sdk
+```
+
+See [CLAUDE-CODE-SETUP.md](CLAUDE-CODE-SETUP.md) for complete integration guide.
+
+### 3. Use in Claude Code
+```
+Use the api-doc-generator to create OpenAPI and Markdown docs for this project
+```
+
+Claude will automatically use the MCP tools to generate documentation.
+
+### Alternative: Standalone Usage
+
+Try the SQL Server MCP:
 ```bash
 cd servers/sql-server
 cp config.template.json config.json
@@ -38,7 +62,7 @@ export DB_PASSWORD="your-password"
 npx tsx test-connection.ts yourdb
 ```
 
-### 3. Try the Web Search MCP (Already Built!)
+Try the Web Search MCP:
 ```bash
 cd servers/web-search
 ./setup.sh  # One-time setup
@@ -49,15 +73,20 @@ cd servers/web-search
 
 ### ✅ Production-Ready MCP Servers
 
-| Server | Status | Priority | Description |
+| Server | Status | ROI/Year | Description |
 |--------|--------|----------|-------------|
-| **sql-server** | ✅ Ready | High | SQL Server schema operations with 98% token reduction |
-| **web-search** | ✅ Ready | High | Smart web search with 89% token optimization |
-| **security-auditor** | 🚧 Week 1 | **Critical** | OWASP Top 10 security scanner |
-| project-scaffolder | 📋 Week 2 | High | Template-based project generation |
-| dependency-updater | 📋 Week 3 | High | Automated dependency updates |
+| **api-doc-generator** | ✅ Ready | $18,000 | Generate OpenAPI specs & Markdown docs |
+| **integration-test-generator** | ✅ Ready | $12,000 | Generate Jest, Pytest, xUnit tests |
+| **security-auditor** | ✅ Ready | $40,000 | OWASP Top 10 security scanner |
+| **project-scaffolder** | ✅ Ready | $42,000 | Template-based project generation |
+| **readme-generator** | ✅ Ready | $28,000 | Auto-generate comprehensive READMEs |
+| **dependency-updater** | ✅ Ready | $24,000 | Automated dependency updates |
+| **sql-server** | ✅ Ready | High | SQL Server schema operations (98% token reduction) |
+| **web-search** | ✅ Ready | High | Smart web search (89% token optimization) |
 
-[See full roadmap →](docs/SKILLS-IMPLEMENTATION-PLAN.md)
+**Phase 1 Complete:** 8/8 servers built | **Total ROI:** $164,000/year
+
+[See detailed setup guide →](CLAUDE-CODE-SETUP.md)
 
 ### ✅ Skills
 
@@ -128,16 +157,23 @@ cat results/ANALYSIS-SUMMARY.md
 ## 📚 Documentation
 
 ### Getting Started
+- **[Claude Code Setup Guide](CLAUDE-CODE-SETUP.md)** - Complete integration guide for Claude Code
 - **[Quick Start Guide](docs/QUICK-START.md)** - Build your first agent in 30 minutes
 - **[Integration Benefits](docs/INTEGRATION-BENEFITS.md)** - Cost-benefit analysis, ROI calculations
 - **[Bibliography](docs/BIBLIOGRAPHY.md)** - Curated resources (30+ links)
 
-### Implementation Guides
-- **[SQL Server MCP](docs/guides/sql-server.md)** - Complete implementation guide
-- **[Web Search MCP](docs/guides/web-search.md)** - Smart search with token optimization
-- **[Project Analyzer](docs/guides/project-analyzer.md)** - Tech stack analysis
+### Server Documentation
+- **[API Documentation Generator](servers/api-doc-generator/README.md)** - OpenAPI & Markdown docs
+- **[Integration Test Generator](servers/integration-test-generator/README.md)** - Jest, Pytest, xUnit tests
+- **[Security Auditor](servers/security-auditor/README.md)** - OWASP Top 10 scanner
+- **[Project Scaffolder](servers/project-scaffolder/README.md)** - Project templates
+- **[README Generator](servers/readme-generator/README.md)** - Auto README generation
+- **[Dependency Updater](servers/dependency-updater/README.md)** - Dependency management
+- **[SQL Server MCP](docs/guides/sql-server.md)** - Schema operations
+- **[Web Search MCP](docs/guides/web-search.md)** - Smart search
 
 ### Planning
+- **[Phase 2 Plan](PHASE-2-PLAN.md)** - Production hardening & expansion roadmap
 - **[Skills Implementation Plan](docs/SKILLS-IMPLEMENTATION-PLAN.md)** - 16-week roadmap for 28 skills
 - **[Status Update](docs/STATUS-UPDATE.md)** - Current implementation status
 

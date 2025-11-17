@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "api-doc-generator": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${SDK_PATH}/servers/api-doc-generator/build/index.js"],
+      "description": "Generate OpenAPI specs and Markdown documentation for REST APIs"
+    },
+    "integration-test-generator": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${SDK_PATH}/servers/integration-test-generator/build/index.js"],
+      "description": "Generate integration tests for Express, FastAPI, and ASP.NET Core APIs"
+    },
+    "security-auditor": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${SDK_PATH}/servers/security-auditor/build/index.js"],
+      "description": "Scan for security vulnerabilities in JavaScript, TypeScript, and Python code"
+    },
+    "project-scaffolder": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${SDK_PATH}/servers/project-scaffolder/build/index.js"],
+      "description": "Create new projects from templates (React, Next.js, Express, FastAPI, etc.)"
+    },
+    "readme-generator": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${SDK_PATH}/servers/readme-generator/build/index.js"],
+      "description": "Generate comprehensive README.md files by analyzing project structure"
+    },
+    "dependency-updater": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["${SDK_PATH}/servers/dependency-updater/build/index.js"],
+      "description": "Check for and update outdated dependencies across 8 package managers"
+    }
+  }
+}
