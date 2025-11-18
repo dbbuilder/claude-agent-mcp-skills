@@ -10,7 +10,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "start": "node build/index.js"
+    "start": "node build/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage"
   },
   "keywords": [
     "cli",
@@ -29,9 +31,13 @@
     "figlet": "^1.7.0"
   },
   "devDependencies": {
+    "@jest/globals": "^30.0.0-alpha.6",
     "@types/figlet": "^1.5.8",
     "@types/inquirer": "^9.0.7",
+    "@types/jest": "^29.5.11",
     "@types/node": "^20.11.0",
+    "jest": "^30.0.0-alpha.6",
+    "ts-jest": "^29.3.4",
     "typescript": "^5.3.3"
   }
 }
