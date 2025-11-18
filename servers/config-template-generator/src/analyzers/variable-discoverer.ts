@@ -101,6 +101,10 @@ export class VariableDiscoverer {
       '**/*.cs',
       '**/*.go',
       '**/*.java',
+      '**/.env*',
+      '**/config.json',
+      '**/config.yaml',
+      '**/config.yml',
     ];
 
     const ignore = includeNodeModules
@@ -261,8 +265,12 @@ export class VariableDiscoverer {
    * Infer if variable is required
    */
   private inferRequired(varName: string, context: string): boolean {
-    // Check if there's a fallback/default value
-    if (context.includes('||') || context.includes('??') || context.includes('default')) {
+    // Find the specific line containing this variable to check for fallbacks
+    const lines = context.split('\n');
+    const varLine = lines.find(line => line.includes(varName)) || '';
+
+    // Check if the specific line with this variable has a fallback/default value
+    if (varLine.includes('||') || varLine.includes('??') || varLine.includes('default')) {
       return false;
     }
 

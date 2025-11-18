@@ -75,7 +75,7 @@ export class OpenAPIGenerator {
     const pathGroups = this.groupByPath(documentation.endpoints);
 
     // Build paths
-    for (const [apiPath, endpoints] of Object.entries(pathGroups)) {
+    for (const [apiPath, endpoints] of pathGroups.entries()) {
       spec.paths[apiPath] = {};
 
       for (const endpoint of endpoints) {

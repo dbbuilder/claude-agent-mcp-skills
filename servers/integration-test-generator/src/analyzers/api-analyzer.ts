@@ -147,8 +147,8 @@ export class APIAnalyzer {
 
       const controllerRoute = this.extractControllerRoute(content);
 
-      // Pattern: [HttpGet("path")]
-      const methodPattern = /\[Http(Get|Post|Put|Patch|Delete)\("?([^"]*)"?\)/gi;
+      // Pattern: [HttpGet] or [HttpGet("path")]
+      const methodPattern = /\[Http(Get|Post|Put|Patch|Delete)(?:\("?([^"]*)"?\))?\]/gi;
 
       for (let lineNum = 0; lineNum < lines.length; lineNum++) {
         const line = lines[lineNum];

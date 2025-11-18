@@ -138,9 +138,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
     switch (name) {
       case 'extract_endpoints': {
         const endpoints = await documenter.extractEndpoints({
-          projectPath: args.projectPath as string,
+          projectPath: args?.projectPath as string,
           framework:
-            args.framework === 'auto' ? undefined : (args.framework as Framework),
+            args?.framework === 'auto' ? undefined : (args?.framework as Framework),
         });
 
         return {
@@ -172,9 +172,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       case 'generate_openapi': {
         // Extract endpoints first
         const endpoints = await documenter.extractEndpoints({
-          projectPath: args.projectPath as string,
+          projectPath: args?.projectPath as string,
           framework:
-            args.framework === 'auto' ? undefined : (args.framework as Framework),
+            args?.framework === 'auto' ? undefined : (args?.framework as Framework),
         });
 
         const result = await documenter.generateDocumentation({
@@ -200,9 +200,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       case 'generate_markdown_docs': {
         // Extract endpoints first
         const endpoints = await documenter.extractEndpoints({
-          projectPath: args.projectPath as string,
+          projectPath: args?.projectPath as string,
           framework:
-            args.framework === 'auto' ? undefined : (args.framework as Framework),
+            args?.framework === 'auto' ? undefined : (args?.framework as Framework),
         });
 
         const result = await documenter.generateDocumentation({
