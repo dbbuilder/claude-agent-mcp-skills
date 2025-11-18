@@ -17,7 +17,7 @@ describe('ComposeGenerator', () => {
     it('should generate basic docker-compose.yml', () => {
       const appService: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         build: {
           context: '.',
           dockerfile: 'Dockerfile',
@@ -49,7 +49,7 @@ describe('ComposeGenerator', () => {
     it('should include restart policy', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
       };
 
@@ -66,7 +66,7 @@ describe('ComposeGenerator', () => {
     it('should include container name', () => {
       const service: ServiceConfig = {
         name: 'my-app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
       };
 
@@ -85,7 +85,7 @@ describe('ComposeGenerator', () => {
     it('should use image when provided', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'my-app:latest',
         ports: ['8080:8080'],
       };
@@ -104,7 +104,7 @@ describe('ComposeGenerator', () => {
     it('should map ports correctly', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
         ports: ['3000:3000', '3001:3001'],
       };
@@ -124,7 +124,7 @@ describe('ComposeGenerator', () => {
     it('should include environment variables', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
         environment: {
           NODE_ENV: 'production',
@@ -149,7 +149,7 @@ describe('ComposeGenerator', () => {
     it('should mount volumes', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
         volumes: ['./src:/app/src', 'node_modules:/app/node_modules'],
       };
@@ -169,7 +169,7 @@ describe('ComposeGenerator', () => {
     it('should add dependencies', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
         dependsOn: ['postgres', 'redis'],
       };
@@ -189,7 +189,7 @@ describe('ComposeGenerator', () => {
     it('should include health checks', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
         healthcheck: {
           test: ['CMD', 'curl', '-f', 'http://localhost:3000/health'],
@@ -279,7 +279,7 @@ describe('ComposeGenerator', () => {
     it('should generate compose with app and database', () => {
       const appService: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         build: {
           context: '.',
           dockerfile: 'Dockerfile',
@@ -310,7 +310,7 @@ describe('ComposeGenerator', () => {
     it('should generate compose with multiple databases', () => {
       const appService: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'my-app:latest',
         dependsOn: ['postgres', 'redis'],
       };
@@ -336,7 +336,7 @@ describe('ComposeGenerator', () => {
     it('should define named volumes', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
         volumes: ['app-data:/data'],
       };
@@ -356,7 +356,7 @@ describe('ComposeGenerator', () => {
     it('should specify volume driver', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
       };
 
@@ -375,7 +375,7 @@ describe('ComposeGenerator', () => {
     it('should define custom networks', () => {
       const service: ServiceConfig = {
         name: 'app',
-        type: 'application',
+        type: 'app',
         image: 'node:20-alpine',
       };
 
@@ -398,7 +398,7 @@ describe('ComposeGenerator', () => {
     it('should generate full-stack application compose', () => {
       const appService: ServiceConfig = {
         name: 'api',
-        type: 'application',
+        type: 'app',
         build: {
           context: '.',
           dockerfile: 'Dockerfile',
