@@ -1,0 +1,18 @@
+[
+  {
+    "server": "performance-profiler",
+    "operation": "analyze_performance",
+    "filesAnalyzed": 500,
+    "executionTimeMs": 10847,
+    "issuesFound": 15291,
+    "success": true
+  },
+  {
+    "server": "code-migration-assistant",
+    "operation": "analyze_migration",
+    "filesAnalyzed": 0,
+    "executionTimeMs": 11,
+    "issuesFound": 0,
+    "success": false
+  }
+]
