@@ -1,0 +1,32 @@
+{
+  "name": "@claude-agent-sdk/code-migration-assistant",
+  "version": "1.0.0",
+  "description": "Assist with code migrations between frameworks and versions",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [
+    "mcp",
+    "migration",
+    "upgrade",
+    "framework",
+    "refactoring"
+  ],
+  "author": "Claude Agent SDK",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "glob": "^10.3.10",
+    "semver": "^7.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/semver": "^7.5.6",
+    "typescript": "^5.3.3"
+  }
+}

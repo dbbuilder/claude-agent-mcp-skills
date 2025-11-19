@@ -1,0 +1,30 @@
+{
+  "name": "@claude-agent-sdk/performance-profiler",
+  "version": "1.0.0",
+  "description": "Analyze code performance and suggest optimizations",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node build/index.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "keywords": [
+    "mcp",
+    "performance",
+    "profiler",
+    "optimization",
+    "analysis"
+  ],
+  "author": "Claude Agent SDK",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "glob": "^10.3.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
