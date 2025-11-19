@@ -81,12 +81,14 @@ cd servers/web-search
 | **project-scaffolder** | ✅ Ready | $42,000 | Template-based project generation |
 | **readme-generator** | ✅ Ready | $28,000 | Auto-generate comprehensive READMEs |
 | **dependency-updater** | ✅ Ready | $24,000 | Automated dependency updates |
-| **sql-server** | ✅ Ready | High | SQL Server schema operations (98% token reduction) |
-| **web-search** | ✅ Ready | High | Smart web search (89% token optimization) |
+| **docker-config-generator** | ✅ Ready | $15,000 | Generate Dockerfile & docker-compose |
+| **config-template-generator** | ✅ Ready | $8,000 | Generate .env templates & configs |
+| **performance-profiler** | ✅ Ready | $20,000 | Analyze code for performance issues |
+| **code-migration-assistant** | ✅ Ready | $25,000 | Framework version migration help |
 
-**Phase 1 Complete:** 8/8 servers built | **Total ROI:** $164,000/year
+**Phase 2 Complete:** 10/10 servers built | **Total ROI:** $232,000/year
 
-[See detailed setup guide →](CLAUDE-CODE-SETUP.md)
+[See detailed setup guide →](CLAUDE-CODE-SETUP.md) | [Usage examples →](docs/USAGE-EXAMPLES.md)
 
 ### ✅ Skills
 
@@ -169,8 +171,14 @@ cat results/ANALYSIS-SUMMARY.md
 - **[Project Scaffolder](servers/project-scaffolder/README.md)** - Project templates
 - **[README Generator](servers/readme-generator/README.md)** - Auto README generation
 - **[Dependency Updater](servers/dependency-updater/README.md)** - Dependency management
-- **[SQL Server MCP](docs/guides/sql-server.md)** - Schema operations
-- **[Web Search MCP](docs/guides/web-search.md)** - Smart search
+- **[Docker Config Generator](servers/docker-config-generator/README.md)** - Docker & compose
+- **[Config Template Generator](servers/config-template-generator/README.md)** - Environment configs
+- **[Performance Profiler](servers/performance-profiler/README.md)** - Performance analysis
+- **[Code Migration Assistant](servers/code-migration-assistant/README.md)** - Framework migrations
+
+### Guides
+- **[Usage Examples](docs/USAGE-EXAMPLES.md)** - Detailed examples for all servers
+- **[Troubleshooting](docs/TROUBLESHOOTING.md)** - Common issues and solutions
 
 ### Planning
 - **[Phase 2 Plan](PHASE-2-PLAN.md)** - Production hardening & expansion roadmap
@@ -319,6 +327,6 @@ MIT License - see [LICENSE](LICENSE) for details
 
 ---
 
-**Status:** 🚀 Active Development | **Next Release:** v0.2.0 (Security Auditor) | **Last Updated:** 2025-11-12
+**Status:** 🚀 Phase 2 Complete | **Version:** v0.3.0 (10 MCP Servers) | **Last Updated:** 2025-11-18
 
 **Built by [DBBuilder](https://github.com/dbbuilder)** with ❤️ for the Claude Agent community
